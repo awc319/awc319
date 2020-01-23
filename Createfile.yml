@@ -4,8 +4,7 @@
   hosts: all
   
   tasks:
-  - name:
-  
+  - name: create folder
     win_file:
       path: C:\Temp\Test1
       state: directory
