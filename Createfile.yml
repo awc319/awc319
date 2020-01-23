@@ -1,6 +1,7 @@
 ---
 # This playbook uses the win_file module to create a folder structure
 - name: Create directory structure
+  hosts: all
   win_file:
     path: C:\Temp\Test1
     state: directory
