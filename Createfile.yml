@@ -1,5 +1,5 @@
 ---
-# This playbook uses the win_file module to create a folder structure
+# This playbook uses the win_file module to create a folder structure.
 - name: create directory structure
   hosts: all
   win_file:
