@@ -1,5 +1,5 @@
 ---
-# This playbook uses the win_file module to create a folder structure.
+# This playbook uses the win_file module to deletes a folder structure.
 - name: Deletes a directory structure
   hosts: all
   
